@@ -16,6 +16,6 @@ public class TestManager : MonoBehaviour {
 
 	void OnGUI()
     {
-		
+        GUI.Button(new Rect(0, 0, 100, 100), "Test Button");
     }
 }
